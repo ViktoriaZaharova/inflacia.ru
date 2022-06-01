@@ -1,0 +1,72 @@
+/*==========  header  ==========*/
+header {
+  margin: 24px 0 41px;
+  background: #fff;
+  padding: 15px 0;
+  -webkit-box-shadow: 0 10px 20px rgba(7, 10, 17, 0.05);
+          box-shadow: 0 10px 20px rgba(7, 10, 17, 0.05); }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 354px;
+  width: 100%; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500; }
+  .menu li {
+    margin: 0 40px 0 0; }
+    .menu li:last-child {
+      margin: 0; }
+    .menu li a {
+      color: #1F2937; }
+      .menu li a:hover {
+        color: #DC2626; }
+
+.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #059669;
+  font-size: 24px;
+  font-weight: 600; }
+  .mail-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 8px 0 0;
+    width: 36px; }
+  .mail-text {
+    text-decoration: underline; }
+  .mail:hover {
+    color: #DC2626; }
+
+/*==========  header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

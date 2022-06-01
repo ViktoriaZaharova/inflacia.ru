@@ -1,0 +1,201 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .logo {
+    max-width: 200px; }
+  .mail {
+    font-size: 18px; }
+  h1 {
+    font-size: 36px; }
+  h2 {
+    font-size: 30px; }
+  h3 {
+    font-size: 24px; }
+  .calculate-img {
+    max-width: 340px;
+    margin-left: -40px; }
+  .calculate-content {
+    width: calc(100% - 300px); }
+    .calculate-content h3 {
+      font-size: 30px; }
+  .calculate-wrapper-box {
+    margin: 0 30px 30px 0; }
+    .calculate-wrapper-box:last-child {
+      margin: 0 0 30px; }
+    .calculate-wrapper-box .sum-value {
+      font-size: 22px; }
+  .form-group .income-box {
+    margin: 0 0 0 30px; }
+  .documents-list {
+    margin: 30px 0 0;
+    font-size: 15px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .menu {
+    font-size: 14px; }
+    .menu li {
+      margin: 0 20px 0 0; }
+  .logo {
+    max-width: 160px; }
+  .mail-icon {
+    width: 20px; }
+  .btn {
+    font-size: 16px; }
+  input, textarea, select {
+    font-size: 18px; }
+  .currency {
+    font-size: 18px;
+    width: auto;
+    right: 10px; }
+  .calculate-content {
+    width: 100%; }
+    .calculate-content .box-text {
+      font-size: 16px;
+      max-width: none; }
+    .calculate-content h3 {
+      font-size: 24px; }
+      .calculate-content h3 span {
+        font-size: 26px; }
+  .description-text {
+    margin: 5px 0 20px; }
+  .content-wrapper, .calculate .content-wrapper {
+    padding: 30px; }
+  .calculate-img {
+    margin: 30px auto;
+    max-width: 400px;
+    width: 100%; }
+  .save-funds-card .btn {
+    margin: 30px 0 0; }
+  .label-item {
+    font-size: 14px; }
+  .advantages-company {
+    margin: 25px 0 40px; }
+  .accordion .card-header {
+    font-size: 22px;
+    padding: 15px 20px; }
+  .accordion .card-body {
+    padding: 15px 20px 20px; }
+  .question {
+    margin: 0 0 50px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header {
+    margin: 0 0 30px; }
+  .menu {
+    font-size: 12px; }
+    .menu li {
+      margin: 0 10px 0 0; }
+  .logo {
+    max-width: 110px; }
+  .mail {
+    font-size: 14px; }
+  h1 {
+    font-size: 30px;
+    padding: 0; }
+  h2 {
+    font-size: 24px;
+    padding: 0; }
+  h3 {
+    font-size: 20px; }
+  .form-group .income-box {
+    width: 100%;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 0 auto 30px; }
+  .btn {
+    padding: 10px 30px; }
+  .form-calculate button {
+    margin: 0 auto; }
+  .calculate-wrapper {
+    margin: 30px 0 0; }
+  .calculate-wrapper-box {
+    width: 100%;
+    margin: 0 0 30px; }
+  .nav-tabs {
+    margin: 30px 0 25px; }
+    .nav-tabs .nav-link {
+      font-size: 16px;
+      padding: 10px 30px; }
+  .save-funds-card__head {
+    font-size: 20px; }
+  .logo-company {
+    max-width: 70px; }
+  .accordion .card-header {
+    font-size: 18px; }
+  .documents-list {
+    font-size: 13px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  footer {
+    margin: 70px 0 0; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .menu {
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .logo {
+    margin: 0 auto 0 0; }
+  .logo-company {
+    max-width: 50px;
+    min-width: 50px; }
+  .label-item {
+    padding: 5px 10px;
+    font-size: 12px; }
+  footer {
+    margin: 50px 0 0; }
+  .documents-list li {
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%; } }
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px; }
+  .calculate-content h3 {
+    font-size: 20px; }
+    .calculate-content h3 sub {
+      font-size: 18px; }
+  .input-title {
+    padding: 0; }
+  .calculate-wrapper-box .sum-value {
+    font-size: 20px; }
+  .content-wrapper, .calculate .content-wrapper {
+    padding: 30px 20px; }
+  .nav-tabs .nav-item {
+    width: 100%;
+    margin: 0 0 10px;
+    text-align: center; }
+  .advantages-company-box {
+    font-size: 12px; }
+    .advantages-company-box__icon {
+      width: 50px;
+      height: 50px;
+      padding: 10px; }
+  .save-funds-card__head {
+    font-size: 18px; }
+  .list-check p {
+    font-size: 16px; }
+  .accordion .card-header:after {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    background-size: 100%; }
+  .accordion .card-header.collapsed:after {
+    background-size: 100%; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+  .menu {
+    font-size: 13px; } }

@@ -1,0 +1,318 @@
+@import "vars"
+
+/*==========  section calculate ==========*/
+.calculate
+  .content-wrapper
+    display: flex
+    align-items: flex-end
+    flex-wrap: wrap
+    padding: 49px 29px 56px 24px
+    position: relative
+    z-index: 1
+
+.calculate-img
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 502px
+  width: 100%
+  margin-left: -90px
+  z-index: -1
+
+.calculate-content
+  width: calc(100% - 412px)
+
+  h3
+    line-height: normal
+    font-size: 36px
+    font-weight: bold
+
+    span
+      font-size: 48px
+
+    sub
+      font-size: 24px
+      display: inline-block
+      top: 0
+
+  .box-text
+    font-family: $font
+    line-height: 150%
+    font-size: 20px
+    max-width: 678px
+    width: 100%
+
+
+.description-text
+  margin: 5px 0 53px
+  color: #4B5563
+  font-size: 13px
+
+  a
+    color: inherit
+
+.form-calculate
+  margin: 35px 0 0
+  font-family: $font
+
+  label
+    position: relative
+    max-width: 364px
+
+.currency
+  position: absolute
+  bottom: 15px
+  width: 100px
+  right: 0
+  font-size: 20px
+  display: inline-block
+
+.calculate-wrapper
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  margin: 39px 0 38px
+
+.calculate-wrapper-box
+  margin: 0 64px 40px 0
+  display: flex
+  align-items: flex-start
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 36px
+    height: 36px
+    min-width: 36px
+  &__text
+    color: #4B5563
+    font-size: 14px
+    span
+      display: inline-block
+      max-width: 240px
+  .sum-value
+    font-size: 26px
+    font-weight: 600
+    color: $red
+    line-height: 120%
+    font-family: $default-font
+  &:last-child
+    margin: 0 0 40px
+
+.income-box
+  .sum-value
+    color: $accent
+
+.form-group
+  margin: 0
+  display: flex
+  align-items: flex-end
+  flex-wrap: wrap
+  .income-box
+    margin: 0 0 0 30px
+
+
+/*==========  section calculate end  ==========*/
+
+
+
+/*==========  section save-funds ==========*/
+.save-funds
+  margin: 58px 0
+
+.nav-tabs
+  width: 100%
+  margin: 43px 0 40px
+  border: none
+    radius: 0
+  .nav-item
+    margin: 0 29px 0 0
+    &:last-child
+      margin: 0
+  .nav-link
+    padding: 13px 40px
+    border: 1px solid #059669
+      radius: 50px
+    color: #059669
+    font-size: 18px
+    line-height: 20px
+    font-family: $btn-font
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+  background: #059669
+  color: #fff
+  border-color: #059669
+
+.tab-content
+  width: 100%
+
+.save-funds-col
+  display: none
+  margin-bottom: 32px
+  &:nth-child(-n+4)
+    display: block
+
+.save-funds-card
+  width: 100%
+  height: 100%
+  background: #fff
+  padding: 24px 16px
+  box-shadow: 0px 10px 20px rgba(7, 10, 17, 0.05)
+  border-radius: 16px
+  position: relative
+  overflow: hidden
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    padding: 16px 0
+    font-size: 24px
+    font-weight: 500
+  .btn
+    width: 100%
+    margin: 56px auto 0
+
+.logo-company
+  margin: 0 16px 0 0
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 84px
+  width: 100%
+
+
+.advantages-company
+  width: 100%
+  margin: 40px 0
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+.advantages-company-box
+  text-align: center
+  font-size: 14px
+  font-weight: 600
+  font-family: $font
+  flex: 1
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 auto 16px
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1), 0px 8px 8px -4px rgba(16, 24, 40, 0.04)
+    width: 64px
+    height: 64px
+    border-radius: 50%
+    background: #F9FAFB
+
+.list-check
+  li
+    margin: 0 0 16px
+    position: relative
+    padding: 0 0 0 40px
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 32px
+      height: 32px
+      border-radius: 50%
+      background: $accent url("../img/check.svg") no-repeat center
+        size: 8px
+    &:last-child
+      margin: 0
+  p
+    font-size: 18px
+    font-weight: 600
+    margin: 0 0 10px
+  span
+    display: inline-block
+    line-height: 150%
+    font-family: $font
+
+.label-item
+  position: absolute
+  top: 0
+  z-index: 1
+  padding: 8px 20px
+  border-radius: 0px 0px 4px 4px
+  right: 16px
+  font-size: 18px
+  font-weight: 600
+  font-family: $default-font
+
+.btn-toggle
+  margin: 8px auto 0
+
+
+/*==========  section save-funds end  ==========*/
+
+
+/*==========  section question ==========*/
+.question
+  margin: 0 0 64px
+
+.accordion
+  border: none
+    radius: 0
+  width: 100%
+  margin: 0
+  .card
+    background: #fff
+    border: none
+      radius: 16px
+  >.card:not(:first-of-type)
+    border: none
+      radius: 16px
+  >.card:not(:last-of-type)
+    border: none
+      radius: 16px
+    margin: 0 0 16px
+  .card-header
+    background: transparent
+    border: none
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 28px 28px 28px 21px
+    font-size: 26px
+    font-weight: 500
+    cursor: pointer
+    &:after
+      content: ''
+      min-width: 40px
+      width: 40px
+      height: 40px
+      display: flex
+      align-items: center
+      justify-content: center
+      background: url("../img/minus.svg") no-repeat center
+        size: 33px
+    &.collapsed
+      &:after
+        background: url("../img/plus.svg") no-repeat center
+          size: 33px
+  .card-body
+    padding: 14px 24px 58px
+    .box-text
+      font-size: 16px
+      font-weight: 500
+      max-width: 860px
+      font-family: $default-font
+      color: #374151
+
+.accordion>.card>.card-header
+  margin: 0
+/*==========  section question end  ==========*/
+
+
+
+/*==========  section seo-content ==========*/
+.seo-content
+  .box-text
+    max-width: 1168px
+    width: 100%
+    margin: 0 auto
+
+/*==========  section seo-content end  ==========*/
